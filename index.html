@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dynalight&display=swap" rel="stylesheet">
+  <title>template 6</title>
+</head>
+<body>
+  <!-- start settings-box  -->
+  <div class="settings-box">
+    <div class="icon"><i class="fa-duotone fa-gear"></i></div>
+    <div class="settings-content">
+      <div class="card">
+        <h2>colors</h2>
+        <ul class="color-list">
+          <li class="active" data-color="#009688"></li>
+          <li data-color="#4caf50"></li>
+          <li data-color="#795548"></li>
+          <li data-color="#00bcd4"></li>
+          <li data-color="#03a9f4"></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>multi backgrounds</h2>
+        <div class="multi-backgrounds">
+          <span class="yes active" data-background="yes">Yes</span>
+          <span class="no" data-background="no">No</span>
+        </div>
+      </div>
+      <div class="card">
+        <h2>show bullets</h2>
+        <div class="show-bullets">
+          <span class="yes active" data-bullets="yes">Yes</span>
+          <span class="no" data-bullets="no">No</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="reset">Reset Settings</div>
+      </div>
+    </div>
+  </div>
+  <!-- end settings-box  -->
+  <!-- Start bullets  -->
+  <div class="bullets">
+    <div class="bullet" data-section="about">
+      <div class="info">About</div>
+      <a href="#about"><span></span></a>
+    </div>
+    <div class="bullet" data-section="skills">
+      <div class="info">Skills</div>
+      <a href="#skills"><span></span></a>
+    </div>
+    <div class="bullet" data-section="gallery">
+      <div class="info">Gallery</div>
+      <a href="#gallery"><span></span></a>
+    </div>
+    <div class="bullet" data-section="timeline">
+      <div class="info">Timeline</div>
+      <a href="#timeline"><span></span></a>
+    </div>
+    <div class="bullet" data-section="features">
+      <div class="info">Features</div>
+      <a href="#features"><span></span></a>
+    </div>
+    <div class="bullet" data-section="testimonials">
+      <div class="info">Testimonials</div>
+      <a href="#testimonials"><span></span></a>
+    </div>
+  </div>
+  <!-- End bullets  -->
+  <!-- start landing-page  -->
+  <div class="landing-page">
+    <div class="overlay"></div>
+    <header>
+      <div class="container">
+        <div class="links-container">
+          <div class="logo">
+            <img src="img/slack.png" alt="">
+          </div>
+            <ul class="links opened">
+              <li><a href="#about" class="active">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#timeline">Timeline</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+            <div class="toggle-menu opened">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </div>
+      </div>
+    </header>
+    <div class="introduction">
+      <h1>We are <span>Creative</span> Agency</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque aliquid</p>
+    </div>
+    <div class="display">
+      <div class="images">
+        <img src="img/05.jpg" alt="" id="last-clone">
+        <img src="img/01.jpg" alt="" id="first">
+        <img src="img/02.jpg" alt="">
+        <img src="img/03.jpg" alt="">
+        <img src="img/04.jpg" alt="">
+        <img src="img/05.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- end landing-page  -->
+  <!-- start about-us  -->
+  <div class="about" id="about">
+    <div class="container">
+      <div class="info">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse placeat error, asperiores voluptatum voluptate laudantium hic dolore? Similique dignissimos repellat, quidem aliquam nisi voluptatibus maiores. Optio, provident. Expedita, veritatis tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolor quos dignissimos modi expedita accusamus laborum nulla</p>
+      </div>
+      <div class="image">
+        <img src="img/about.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- end about-us  -->
+  <!-- Start our-skills  -->
+  <div class="skills" id="skills">
+    <div class="container">
+      <h2>Our Skills</h2>
+      <div class="skill-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-width="85%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-width="75%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-progress">
+          <span data-width="70%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Python</div>
+        <div class="skill-progress">
+          <span data-width="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">PHP</div>
+        <div class="skill-progress">
+          <span data-width="85%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">MySQL</div>
+        <div class="skill-progress">
+          <span data-width="60%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End our-skills  -->
+  <!-- Start gallery  -->
+  <div class="gallery" id="gallery">
+    <div class="container">
+      <h2>Our Gallery</h2>
+      <div class="images-box">
+        <img src="img/6.jpg" alt="image one">
+        <img src="img/07.jpg" alt="image two">
+        <img src="img/9.jpg" alt="image three">
+        <img src="img/10.jpg" alt="image four">
+        <img src="img/11.jpg" alt="image five">
+        <img src="img/12.jpg" alt="image six">
+        <img src="img/13.jpg" alt="image seven">
+        <img src="img/14.jpg" alt="image eight">
+        <img src="img/15.jpg" alt="image nine">
+        <img src="img/8.jpg" alt="image ten">
+      </div>
+    </div>
+  </div>
+  <!-- End gallery  -->
+  <!-- Start timeline  -->
+  <div class="timeline" id="timeline">
+    <div class="container">
+      <div class="timeline-content">
+        <div class="year">2021</div>
+        <div class="left">
+          <div class="content">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut odit molestias nostrum minima eaque aspernatur, voluptate incidunt, sapiente praesentium nesciunt? Debitis nostrum nemo distinctio facere adipisci tempora. Reiciendis, libero!</p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="content">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut odit molestias nostrum minima eaque aspernatur, voluptate incidunt, sapiente praesentium nesciunt? Debitis nostrum nemo distinctio facere adipisci tempora. Reiciendis, libero!</p>
+          </div>
+        </div>
+        <div class="year">2022</div>
+        <div class="left">
+          <div class="content">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut odit molestias nostrum minima eaque aspernatur, voluptate incidunt, sapiente praesentium nesciunt? Debitis nostrum nemo distinctio facere adipisci tempora. Reiciendis, libero!</p>
+          </div>
+        </div>
+        <div class="left">
+          <div class="content">
+            <h3>heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut odit molestias nostrum minima eaque aspernatur, voluptate incidunt, sapiente praesentium nesciunt? Debitis nostrum nemo distinctio facere adipisci tempora. Reiciendis, libero!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End timeline  -->
+  <!-- Start features  -->
+  <div class="features" id="features">
+    <h3>Our Features</h3>
+    <div class="container">
+      <div class="feat-box">
+        <img src="img/fea1.png" alt="">
+        <h4>Development</h4>
+        <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/fea2.png" alt="">
+        <h4>Marketing</h4>
+        <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/fea3.png" alt="">
+        <h4>Hosting</h4>
+        <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/fea4.png" alt="">
+        <h4>Mobile Develope</h4>
+        <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/fea5.png" alt="">
+        <h4>Cloud and Servers</h4>
+        <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/fea6.png" alt="">
+        <h4>Seo</h4>
+        <p>We are professional marketeers, we will do anything you imagine in no time.</p>
+      </div>
+    </div>
+  </div>
+  <!-- End features  -->
+  <!-- Start testimonials  -->
+  <div class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="comment-boxes">
+        <div class="comment-box">
+          <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="info">Ahmed Mosaad</div>
+          <div class="job">CEO At Company</div>
+        </div>
+        <div class="comment-box">
+          <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="info">Mohamed Ibrahim</div>
+          <div class="job">CEO At Company</div>
+        </div>
+        <div class="comment-box">
+          <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing.</p>
+          <div class="info">Sherief Ashraf</div>
+          <div class="job">CEO At Company</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End testimonials  -->
+  <!-- Start contact us  -->
+  <div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="content">
+        <div class="left">
+          <input type="text" placeholder="Your Name" name="name">
+          <input type="number" placeholder="Your Phone" name="number">
+          <input type="emial" placeholder="Your Emial" name="emial">
+          <input type="text" placeholder="Subject" name="subject">
+        </div>
+        <div class="right">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <input type="submit" name="button" value="Send">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End contact us  -->
+  <!-- Start footer  -->
+  <footer>
+    <div>Made By <span>Asem Amr</span></div>
+  </footer>
+  <!-- End footer  -->
+  <script src="js/main.js"></script>
+</body>
+</html>

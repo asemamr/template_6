@@ -1,0 +1,2 @@
+#html, css and javascript 
+this template made by html, css and javascript in the right side of the template there is an icon refer for the settings you can use to customize the view of the website the once you change the settings this changes will save on the local storage on your device.
